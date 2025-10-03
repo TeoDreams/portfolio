@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# My React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal portfolio website, built using **React**! 🚀
 
-Currently, two official plugins are available:
+This project is a dedicated space to showcase my skills, projects, and professional experience. It's a work in progress, and I'm actively developing and refining it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Status: 🚧 Under Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm currently focused on:
 
-## Expanding the ESLint configuration
+* **Core Structure:** Setting up the main components and routing (`Home`, `About`, `Projects`, `Contact`).
+* **Styling:** Implementing a clean, responsive, and modern design (using **CSS Modules** / **Styled-Components** / *[Specify your styling method here]*).
+* **Content Integration:** Populating the sections with up-to-date information and project details.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **React:** For building the user interface.
+* **Vite** / **Create React App (CRA)**: *[Choose one and specify]* For project scaffolding and development server.
+* **React Router DOM:** For navigation within the single-page application (SPA).
+* **HTML5** & **CSS3** / **Sass**: For structure and basic styling.
+* **JavaScript (ES6+)**: For application logic.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+To run this project locally, follow these steps:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # (Use 'npm start' or 'yarn start' if you used CRA)
+    ```
+4.  Open your browser and navigate to `http://localhost:5173/` (or the address shown in your terminal).
+
+---
+
+## Next Steps / To-Do List
+
+* ✅ Finalize the **Projects** component structure.
+* ◻️ Implement **dark/light theme** toggle.
+* ◻️ Optimize performance and bundle size.
+* ◻️ Add **animations** and smooth transitions.
+* ◻️ Deploy the final version to **Netlify/Vercel**.
+
+---
+
+## Feedback and Contributions
+
+This is a personal project, but I welcome any feedback or suggestions! If you notice any bugs or have ideas for improvement, feel free to open an issue.
+
+---
+
+## License
+
+*This project is not licensed for public use.*
